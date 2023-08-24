@@ -1,0 +1,43 @@
+@import 'section.scss';
+@import 'footer.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+    padding-bottom: 30px;
+
+    &__nav{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(3, 60fr);
+        gap: 300px;
+        margin-top: 40px;
+
+    }
+
+    &__item{
+        list-style: none;
+    }
+
+    &__link{
+        text-decoration: none;
+        
+    }
+ 
+}
+
+
+
+
+
+   
